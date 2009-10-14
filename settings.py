@@ -25,7 +25,7 @@ TIME_ZONE = 'Japan/Tokyo'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'ja'
+LANGUAGE_CODE = 'ja-jp'
 
 SITE_ID = 1
 
@@ -76,5 +76,6 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
+	'django.contrib.admin',
 	'mylogger.logger'
 )
